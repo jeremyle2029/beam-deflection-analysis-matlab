@@ -12,5 +12,5 @@ A custom simulation tool engineered in MATLAB to visualize structural beam displ
 
 ## File Structure
 
-- `Main_Beam.m` : **The main driver script** that handles user inputs, executes deflection mathematics, and renders the material-specific plots.
-- `validate_constraints.m` : **The data validation function** that enforces structural limits and handles physical constraint warnings.
+- `MA5.m` : **The main driver script** that handles user inputs, executes deflection mathematics, and renders the material-specific plots.
+- `MaterialElasticity.mat` : **The data file** containing the structural properties and material constants required for the deflection simulations.
